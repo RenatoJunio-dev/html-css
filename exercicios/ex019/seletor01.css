@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body {
+    background-color: #77b38980;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #441225;
+}
+h1#titulo-principal {
+    color: #2a2144;
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    color: #026921;
+}
+p {
+    color: #000000;
+    font-size: 16px;
+}
+p#paragrafo-intermediario {
+    color: #5b3eac;
+    font-size: 16px;
+    font-style: italic;
+    
+}
+ h1.secundario {
+    color: #5e324f;
+    
+}
+h2.basico {
+    color: #205839;
+}
+h2.intermediario {
+        color: #d6b833;
+    }
+h2.avancado {
+    color: #d63e3e; }
+    .unica {
+        color: #47d3f7;
+        font-weight: bold;
+    }

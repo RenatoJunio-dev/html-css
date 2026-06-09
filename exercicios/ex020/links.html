@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        .especal{
+            color: green;
+        }
+        .especal ::after{
+            content:  '(link especial)';
+        }
+        a{
+            color:brown;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: darkred;
+
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        a::after{
+            content: ' (clique aqui)';
+            font-size: 0.8em;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+       <a href="https://github.com" target="_blank">
+           <li>Repositorio github</li>
+       </a>
+       <a href="https://youtube.com" target="_blank">
+           <li class="especal">Canal do youtube</li>
+       </a>
+       <a href="https://siteoficial.com" target="_blank">
+           <li>Site oficial</li>
+       </a>
+    </ul>
+    
+</body>
+</html>

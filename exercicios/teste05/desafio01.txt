@@ -1,0 +1,9 @@
+ site
+barra de pesquisa
+menu
+contato
+foto das opçoes
+preço
+carrinho
+link que leva para o produto em si
+
