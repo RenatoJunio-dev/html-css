@@ -52,7 +52,7 @@ section {
     line-height:  2em;
     font-family: var(--font03);
     font-size: 2.5vw;
-    padding-left:23px ;
+    padding-left:30px ;
 
 
 }
@@ -61,15 +61,32 @@ section {
 color: black;
  }
  section.image {
-    background-color: rgba(49, 44, 44, 0.514);
+    background-color: rgba(49, 44, 44, 0.377);
 color: white;
+box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.596);
+background-attachment: fixed;
 
 
  
 p {
-    background-color: rgba(0, 0, 0, 0.664);
+    background-color: rgba(0, 0, 0, 0.521);
     display: inline-block;
+    padding: 5px;
+    text-shadow:  1px 1px 0px black;
  
 
  }
+}
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+
+}
+section#img02 {
+background-image: url('../imagens/background002.jpg');
+
+ background-position: right center;
+ background-size: cover;
+
 }
