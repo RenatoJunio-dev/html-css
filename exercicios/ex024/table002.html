@@ -5,16 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
-        table{ width: 100vh;
+        table{ width: 500px;
             border-collapse: collapse;
+            position: relative;
 
+        }
+        caption {
+
+            font-size: 1.5em;
+            font-weight:bold ;
+            padding: 10px;
+            background-color: gray;
+        }
+        thead > tr > th {
+            position:sticky;
+            top: 0;
+            background-color:gray ;
+
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: rgb(179, 129, 129);
+        
         }
         td,th { border: 1px solid black;
             padding: 10px;
 
         }
         thead, tfoot{
-            background-color: gray;
+            background-color: rgba(2, 2, 2, 0.548);
             color: white;
         }
     </style>
@@ -22,15 +40,17 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+         <caption>Unidades federativas do Brasil</caption>
         <thead>
+           
             <tr>
                <th>Estado</th> 
-               <th>Populaçao</th>
+               <th style="width: 100px ;">Populaçao</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Sao paulo</td>
+                <td >Sao paulo</td>
                 <td>44 411 238	</td>
             </tr>
              <tr>
